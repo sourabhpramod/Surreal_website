@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surreal.</title>
+    <style>
+        /* Reset styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a3055;
+            color: #333;
+            min-height: 100vh;
+            /* Set minimum height to full viewport height */
+            margin: 0;
+            /* Remove default margin */
+            padding: 0;
+            /* Remove default padding */
+        }
+
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .banner {
+            background-image: linear-gradient(#1a3055, #4b0082);
+            background-size: cover;
+            text-align: center;
+            padding: 100px 20px;
+
+        }
+
+        .banner h2 {
+            font-size: 120px;
+            margin-bottom: 20px;
+            color: darkorchid;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-shadow: 4px 4px black;
+
+        }
+
+        .banner p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: darkslateblue;
+            color: #fff;
+            text-decoration: none;
+            transition-duration: 0.4s;
+            border-radius: 8px;
+        }
+
+        .btn:hover {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: darkorchid;
+            color: #fff;
+            text-decoration: none;
+
+        }
+
+        .featured-products {
+            text-align: center;
+            background-image: linear-gradient(#4b0082, #1a3055);
+            padding: 50px 20px;
+        }
+
+        .product {
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+        .product img {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 10px;
+        }
+
+        #tagline {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 20px;
+            text-shadow: 2px 2px black;
+        }
+
+        #t {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 20px;
+            text-shadow: 2px 2px black;
+        }
+
+        .product h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .product p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        #navtext {
+            font-size: 20px;
+            margin-bottom: 1px;
+            color: darkorchid;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-shadow: 1px 1px black;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header style="background-color: #1a3055;">
+        <h1 id="navtext">Like a dream.</h1>
+        <nav>
+            <ul>
+                <li><a href="#" style="color: darkorchid;">Home</a></li>
+                <li><a href="#" style="color: darkorchid;">Shop</a></li>
+                <li><a href="#" style="color: darkorchid;">About</a></li>
+                <li><a href="/signup" style="color: darkorchid;">Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h2>Surreal.</h2>
+        <p id="tagline" style="color: darkorchid;">One stop VR/AR Solutions</p>
+        <a href="/shop" class="btn">Get Going</a>
+    </section>
+
+    <section class="featured-products">
+        <h2 id="t" style="color: darkorchid;">Feel the Surrealism</h2>
+        <div class="product">
+
+            <h3 id="t" style="color: darkorchid;">Like a dream.</h3>
+
+            <a href="/signup" class="btn">Signup</a>
+        </div>
+        <!-- More products -->
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
